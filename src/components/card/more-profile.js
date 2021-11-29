@@ -36,7 +36,16 @@ const contact = [
   },
   {
     id: 5,
-    bgColor: "#12e69e",
+    bgColor: "#795548",
+    name: "Monalisa",
+    number: "+880 1310-071378",
+    email: "felone@info.com",
+    link_01: "www.facebook.com",
+    link_02: "www.twitter.com",
+  },
+  {
+    id: 6,
+    bgColor: "#8bc34a",
     name: "Monalisa",
     number: "+880 1310-071378",
     email: "felone@info.com",

@@ -4,7 +4,6 @@ import UserName from "./user-name";
 import Telephone from "./tel";
 import Email from "./email";
 import SocilLink from "./social-link";
-import contact from "./more-profile";
 
 function Card(props) {
   return (

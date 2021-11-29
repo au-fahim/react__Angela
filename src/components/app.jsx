@@ -1,15 +1,8 @@
 import React, { Component } from "react";
-// import Greeting from "./greeting";
-// import { Add, Multiply, Subtract, Divide } from "./calculator";
-import Profile from "./card/contact";
 
 class App extends Component {
   render() {
-    return (
-      <section>
-        <Profile />
-      </section>
-    );
+    return <div></div>;
   }
 }
 
