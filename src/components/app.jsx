@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import EmojiPedia from "./emoji/emoji_pedia";
 
 class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <main className="main">
+        <EmojiPedia />
+      </main>
+    );
   }
 }
-
-/* <div className="Hello-app">
-        <h1>👾 Hello React App! <br />{new Date().toLocaleString()}</h1>  
-      </div> */
 
 /**
  * There are two Different Ways to Create React Component
