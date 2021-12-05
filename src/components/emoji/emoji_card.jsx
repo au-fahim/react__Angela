@@ -1,14 +1,22 @@
 import react from "react";
 
 function EmojiCard(props) {
+  let readMore = <a href="#">Read More</a>;
+
+  let threeDot = function (item, readMore) {
+    return item.length > 25 ? " ..." : "";
+  };
+
   return (
-    <div className="card_item">
+    <dl className="card_item">
       <div className="card_wrapper">
-        <img src={`${props.img}`} alt="emoji_image" />
-        <h2>{props.title}</h2>
-        <p>{props.dtl}</p>
+        <dt>
+          <img src={`${props.img}`} alt={`${props.title.slice(0, 1)}`} />
+          <h2>{props.title}</h2>
+        </dt>
+        <dd>{props.dtl.substring(0, 150) + threeDot(props.dtl)}</dd>
       </div>
-    </div>
+    </dl>
   );
 }
 

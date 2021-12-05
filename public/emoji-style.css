@@ -8,8 +8,9 @@
 }
 
 .header_title h1 {
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   text-align: center;
+  padding: 20px 0px;
 }
 
 .card__container {
@@ -21,16 +22,42 @@
 }
 
 .card_item {
-  width: 31%;
+  width: 28%;
   border: 1px solid #ccc;
-  padding: 1.2rem;
-  border-radius: 4px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+dt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+dd {
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .card_wrapper {
-  text-align: center;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card_wrapper::after {
+  content: "";
+  position: absolute;
+  width: 2.8rem;
+  height: 0.4rem;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+  background: rgb(0 0 0 / 20%);
+  border-radius: 50%;
+  filter: blur(4px);
 }

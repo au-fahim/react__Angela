@@ -21,7 +21,7 @@ const emoji = [
     id: "4",
     img: "https://www.emojimeanings.net/img/emojis/doughnut_1f369.png",
     title: "Doughnut",
-    dtl: "You crave for something sweet! Policemen are constantly eating doughnuts in American movies, and they are also known to be Homer Simpson's favorite food. Because of its shape, there could also be a sexual meaning behind it.",
+    dtl: `You crave for something sweet! Policemen are constantly eating doughnuts in American movies, and they are also known to be Homer Simpson's favorite food. Because of its shape, there could also be a sexual meaning behind it.`,
   },
   {
     id: "5",
